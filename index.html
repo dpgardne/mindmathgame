@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MindSolve</title>
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/project1_style.css">
+
+
+</head>
+<body>
+    <div id="mainDiv">
+      <h1 id="h1">Welcome to MathSolve</h1>
+        <div id="description">
+        <p id="description_text">MathSolve is a two-player game that challenges each player's mental math abilities. Each player has 30 seconds to solve as many math equations as they can varying from addition, subtraction, multipication, and division. Questions are uniquely generated using a random combination of numbers and operators. </p>
+        </div>
+        <div id="begin">
+          <button id="begin_button"> Begin </button>
+          <button id="easy_button"> Easy </button>
+          <button id="medium_button"> Medium </button>
+          <button id="hard_button"> Hard </button>
+          <button id="playerTwo"></button>
+
+        </div>
+      <div id="gameDiv">
+        <h1 id="gameDiv_player">  Player's turn:  </h1>
+        <h1 id="gameDiv_score1"> Score Player 1: 0</h1>
+        <h1 id="gameDiv_score2"> Score Player 2: 0</h1>
+        <h1 id="gameDiv_wins1"> Wins Player 1: 0</h1>
+        <h1 id="gameDiv_wins2"> Wins Player 2: 0</h1>
+        <h1 id="gameDiv_ties"> Ties: 0</h1>
+        <h1 id="gameDiv_round"> Round: 0 </h1>
+        <h1 id="gameDiv_time"> Time: 0 </h1>
+
+        <div id="input">
+          <h1 id="begin_winner"> </h1>
+          <h1 id="input_question">  </h1>
+          <input type="text" id="input_field">
+          <button id="input_button">Submit</button>
+          <!-- <button id="input_button2"></button> -->
+
+        </div>
+
+
+      </div>
+
+  </div>
+
+
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+  <script src="js/project1_app.js" charset="utf-8"></script>
+</body>
+</html>
